@@ -1,0 +1,17 @@
+
+<table class="table table-bordered">
+    <thead>
+         <tr>
+              <th>Cedula</th>
+              <th>Nombre</th>
+              <th>Especialidad</th>
+         </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let medico of medicos">
+            <td>{{medico.cedula_m}}</td>
+            <td>{{medico.nombre_m}}</td>
+            <td>{{medico.especialidad_m}}</td>
+        </tr>
+    </tbody>
+</table>
